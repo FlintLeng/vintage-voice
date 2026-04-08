@@ -48,6 +48,21 @@ A filter adds crackle and EQ curves ON TOP of modern speech. VintageVoice learns
 | `edison` | 1888-1920s | Edison cylinder recordings | The oldest recorded human voices |
 | `wartime` | 1939-1945 | Churchill, Murrow, WWII broadcasts | Wartime urgency and gravitas |
 | `announcer` | 1930s-1960s | Radio commercials, station IDs | Trained professional announcer voice |
+| `cajun_french` | 1880s-present | Family recordings, field recordings | **Endangered** — Cajun French of SW Louisiana |
+
+<p align="center">
+<img src="assets/sophia_edison_1890s.png" width="180" alt="Edison">
+<img src="assets/sophia_cajun_french_1880s.png" width="180" alt="Cajun French">
+<img src="assets/sophia_fireside_1940s.png" width="180" alt="Fireside">
+<img src="assets/sophia_newsreel_1940s.png" width="180" alt="Newsreel">
+<br>
+<img src="assets/sophia_radio_drama_1940s.png" width="180" alt="Radio Drama">
+<img src="assets/sophia_wartime_1940s.png" width="180" alt="Wartime">
+<img src="assets/sophia_transatlantic_1940s.png" width="180" alt="Transatlantic">
+<img src="assets/sophia_announcer_1950s.png" width="180" alt="Announcer">
+<br>
+<em>Sophia Elya across 8 presets — 1880s to 1950s</em>
+</p>
 
 ## Architecture
 
@@ -194,6 +209,53 @@ This isn't just a preservation project. Period-accurate voices have real demand:
 
 Hollywood pays voice coaches thousands per actor to teach transatlantic delivery. This model does it for free.
 
+## Cajun French Preservation (UNESCO Endangered)
+
+<p align="center">
+<img src="assets/sophia_cajun_french_1880s.png" width="250" alt="Cajun Sophia 1880s">
+<img src="assets/sophia_cajun_1920s.png" width="250" alt="Cajun Sophia 1920s">
+<br>
+<em>Sophia Elya — Cajun French mode (1880s & 1920s)</em>
+</p>
+
+VintageVoice isn't just about dead broadcast accents. It's also preserving **living endangered languages**.
+
+**[Cajun French is classified as "severely endangered" by UNESCO.](https://www.unesco.org/en/legal-affairs/recommendation-promotion-and-use-multilingualism-and-universal-access-cyberspace)** There are approximately 150,000 speakers remaining, mostly elderly. Louisiana Creole is even worse — roughly 10,000 speakers left. When this generation passes, these languages die with them.
+
+This project is personal. The founder's family traces directly to the [Acadian Expulsion](https://en.wikipedia.org/wiki/Expulsion_of_the_Acadians) of 1755-1764, when the British expelled 11,000+ French-speaking Acadians from Nova Scotia. His 6th great-grandfather, **Augustine Dit Remi Boudreaux**, arrived in the Attakapas region (Opelousas/Lafayette) at age 16, separated from his family. 260 years later, his descendants are building AI to preserve the language he carried south.
+
+### What We're Collecting
+
+| Source | Content | Status |
+|--------|---------|--------|
+| Archive.org Louisiana collections | Cajun French, Creole, Zydeco | Downloading |
+| Alan Lomax field recordings | Louisiana folk music & speech | Downloading |
+| Opelousas-area recordings | Cajun music (Opelousas Sostan, etc.) | Downloaded |
+| New Orleans oral histories | Yat accent, Creole French | Downloading |
+| YouTube (curated, permission-cleared) | Cajun hymns, music, interviews | In Progress |
+| **Family recordings** | **Native speakers (80s-90s age)** | **Collecting** |
+
+### How You Can Help
+
+If you or your family speaks Cajun French, Louisiana Creole, or has a strong Cajun English accent:
+
+1. **Record them talking** — phone voice memo is fine
+2. **Any length helps** — even 5 minutes is valuable
+3. **Just let them talk naturally** — stories, recipes, memories
+4. **Don't correct their French** — "broken" grammar IS the language
+
+See our [Family Recording Guide](FAMILY_RECORDING_GUIDE.md) for detailed instructions.
+
+### Why This Matters
+
+- **Cajun French** is not Parisian French. It's a distinct language with vocabulary, grammar, and pronunciation that exists nowhere else.
+- **The last fluent generation** is in their 70s-90s. Their children understand it but don't speak it. Their grandchildren don't understand it at all.
+- **Schools punished children** for speaking French in Louisiana through the 1960s. An entire generation was shamed out of their mother tongue.
+- **No TTS model exists** for Cajun French. Not one. When these speakers die, the exact sound of the language dies with them — unless we capture it now.
+
+*"On parle français ici. Ça, c'est notre langue. Faut pas la perdre."*
+*We speak French here. This is our language. We can't lose it.*
+
 ## The Preservation Angle
 
 This isn't just a fun TTS model. It's digital preservation of speech patterns that are disappearing from living memory:
@@ -202,6 +264,7 @@ This isn't just a fun TTS model. It's digital preservation of speech patterns th
 - Newsreel narration was a specific performance art. The last practitioners are gone.
 - Edison cylinder voices are people born before the Civil War. Their speech patterns exist nowhere else.
 - Radio drama delivery influenced an entire generation of performers. That tradition ended with television.
+- **Cajun French is dying RIGHT NOW.** The speakers are alive. We can still reach them. This is the most urgent preservation work in this project.
 
 Every year, the people who remember these voices die. VintageVoice captures them before they're gone entirely.
 
